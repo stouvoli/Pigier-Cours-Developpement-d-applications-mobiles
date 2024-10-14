@@ -10,13 +10,6 @@ class SmartDevice {
     fun turnOff() {
         println("Smart device is turned off.")
     }
-    
-    var speakerVolume = 2
-        set(value) {
-            if (value in 0..100) {
-                field = value
-        }
-    }
 }
     
 fun main() {
